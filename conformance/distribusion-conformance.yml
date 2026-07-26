@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://distribusion.com/llms.txt
+notes: >-
+  Distribusion's public surface states it supports the OSDM (Open Sales and
+  Distribution Model) rail distribution standard. No published SOC 2 / ISO 27001
+  / PCI compliance program was found on the public site, so no Compliance pointer
+  is emitted. The Retailer API reference at docs.distribusion.com is behind bot
+  protection (HTTP 403), so no OpenAPI-derived conformance could be asserted.
+standards:
+  - id: osdm
+    name: Open Sales and Distribution Model (rail distribution)
+    conforms: true
+    evidence: 'provider /llms.txt: "OSDM rail distribution standards"'
